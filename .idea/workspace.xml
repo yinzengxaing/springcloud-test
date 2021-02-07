@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c63b8d-32cb-40a4-9ea3-cdf3a6bebf2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/test/springcloudgateway/SpringcloudGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/test/springcloudgateway/filter/AuthGatewayFilterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/java/com/test/springcloudgateway/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/test/eurekaconsumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/test/eurekaconsumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-product/src/main/java/com/test/eurekaproduct/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-product/src/main/java/com/test/eurekaproduct/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/test/springcloudzuul/SpringcloudZuulApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/src/main/java/com/test/springcloudzuul/filter/LoginFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-zuul/src/test/java/com/test/springcloudzuul/SpringcloudZuulApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-gateway/src/test/java/com/test/springcloudgateway/SpringcloudGatewayApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +129,7 @@
       <workItem from="1612400551018" duration="4734000" />
       <workItem from="1612409969329" duration="5849000" />
       <workItem from="1612495308380" duration="8356000" />
+      <workItem from="1612666494065" duration="7517000" />
     </task>
     <servers />
   </component>
