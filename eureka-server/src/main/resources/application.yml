@@ -5,6 +5,8 @@ server:
   port: 8090
 
 eureka:
+  server:
+    enable-self-preservation: false #关闭eureka的自我保护机制
   instance:
     hostname: localhost
   client:

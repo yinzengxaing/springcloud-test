@@ -9,6 +9,7 @@ public class ProductController {
 
     @RequestMapping("/getProduct")
     public String grtProduct(){
+        System.out.println("我是生产者");
         Product product = new Product();
         return product.toString();
     }

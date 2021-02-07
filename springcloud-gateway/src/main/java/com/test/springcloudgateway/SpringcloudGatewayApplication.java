@@ -1,24 +1,22 @@
-package com.test.springcloudzuul;
+package com.test.springcloudgateway;
 
-import com.test.springcloudzuul.filter.LoginFilter;
+import com.test.springcloudgateway.filter.TokenFilter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EnableZuulProxy
-public class SpringcloudZuulApplication {
+public class SpringcloudGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringcloudZuulApplication.class, args);
+        SpringApplication.run(SpringcloudGatewayApplication.class, args);
     }
-
 
     @Bean
-    public LoginFilter preLoginFilter(){
-        return  new LoginFilter();
+    TokenFilter tokenFilter (){
+        return new TokenFilter();
     }
+
 }

@@ -10,11 +10,12 @@
         <module name="eureka-server" />
         <module name="eureka-product" />
         <module name="eureka-consumer" />
-        <module name="springcloud-zuul" />
+        <module name="springcloud-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gateway-zuul" target="1.8" />
+      <module name="springcloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +24,7 @@
       <module name="eureka-product" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway-zuul" options="-parameters" />
+      <module name="springcloud-gateway" options="-parameters" />
       <module name="springcloud-zuul" options="-parameters" />
     </option>
   </component>

@@ -15,6 +15,7 @@ public class ConsumerController {
 
     @RequestMapping("getConsumer")
     public String getConsumere(){
+        System.out.println("我是消费者。。。。。");
         String product = productService.getProduct();
         return product;
     }
